@@ -15,33 +15,13 @@ Reduced operational costs
 Improved service efficiency
 Hybrid Model Strategy : ARIMA / SARIMASeasonality + time trends, XGBoost / Random ForestExternal factors (weather, demographics)
 volume_forecasting/
-│
-├── data/
-│   ├── raw/
-│   ├── processed/
-│
-├── notebooks/
-│   └── exploration.ipynb
-│
-├── src/
-│   ├── data_ingestion.py
-│   ├── preprocessing.py
-│   ├── feature_engineering.py
-│   ├── train_model.py
-│   ├── evaluate_model.py
-│   ├── forecast.py
-│
-├── models/
-│   └── saved_model.pkl
-│
-├── config/
-│   └── config.yaml
-│
-├── utils/
-│   └── helper.py
-│
-├── requirements.txt
-└── main.py
+data - raw ── processed/
+notebooks - exploration.ipynb
+src ── data_ingestion.py ── preprocessing.py ── feature_engineering.py ── train_model.py ── evaluate_model.py ── forecast.py
+models ─ saved_model.pkl
+config ── config.yaml
+utils ── helper.py
+requirements.txt ── main.py
 ****Data processing**
 import pandas as pd
 
