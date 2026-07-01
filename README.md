@@ -14,7 +14,7 @@ Inventory optimization
 Reduced operational costs
 Improved service efficiency
 Hybrid Model Strategy : ARIMA / SARIMASeasonality + time trends, XGBoost / Random ForestExternal factors (weather, demographics)
-**PROJECT STRUCTURE : volume_forecasting**
+**PROJECT STRUCTURE : volume_forecasting**:-
 data - raw ── processed/
 notebooks - exploration.ipynb
 src ── data_ingestion.py ── preprocessing.py ── feature_engineering.py ── train_model.py ── evaluate_model.py ── forecast.py
