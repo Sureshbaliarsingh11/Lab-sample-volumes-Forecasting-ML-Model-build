@@ -1,4 +1,5 @@
 **What is the Problem?**
+We are building an end-to-end ML forecasting platform that uses historical lab volumes, demographics, insurance information, and external factors such as weather to predict future monthly sample volumes, enabling better resource planning, inventory optimization, and operational decision-making
 Business Problem
 LabCorp experiences fluctuations in lab sample volumes across different:
 
@@ -21,8 +22,31 @@ Predict future monthly sample volumes
 Forecast volumes by region and patient segments
 Identify key drivers of volume changes
 Provide actionable insights through dashboards and reports [Volume For...ML Project | Word]
+**Business Deliverables**
+The final output includes:
 
-
+Monthly volume forecasts
+Region-wise forecasts
+Forecast vs Actual reporting
+Driver analysis (weather, insurance, demographic impact)
+KPI dashboards for management review
+The document does not explicitly confirm a single production model. Instead, it proposes and discusses several forecasting approaches.
+**Candidate Models Mentioned**
+A. Time Series Models
+ARIMA / SARIMA
+Used for:
+Trend detection
+Seasonality capture
+Monthly volume forecasting
+**Machine Learning Models**
+XGBoost / Random Forest
+Used for:
+Leveraging external variables
+Understanding impact of:
+Weather
+Demographics
+Insurance categories
+Regional differences 
 **What Solution Are We Providing?**
 Solution Overview
 The solution is not just an ML model, but a complete end-to-end forecasting platform consisting of:
